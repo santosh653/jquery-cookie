@@ -3,7 +3,7 @@ arch:
   - ppc64le
 language: node_js
 node_js:
-  - 5
+  - node
 before_script:
   - npm install -g grunt-cli
 script: grunt ci --verbose
